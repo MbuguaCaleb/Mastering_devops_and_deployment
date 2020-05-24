@@ -36,3 +36,25 @@ This will help you avoid keying in the password while pinging into your server.
 touch test.txt $ scp ~/test.txt brad@192.168.1.29:~
 
 ```
+
+**Adding ssh key for the first time**
+
+```
+ssh-add ~/.ssh/id_rsa_do
+
+```
+
+**Digital ocean**
+
+```
+Your public key should be in the servers authorized key files for you to log in via ssh.
+
+```
+
+
+
+**MYSQL ROOT USER LOGIN WHEN YOU SET PASSWORD**
+```
+mysql -u root -p
+
+```
